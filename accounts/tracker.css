@@ -1,5 +1,4 @@
 /* General */
-
 body {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -31,9 +30,7 @@ h1 {
     margin-top: 0px;
 }
 
-
 /* Index */
-
 .tracking-number-input {
     margin-top: 20px;
 }
@@ -43,9 +40,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-
 /* Order Dashboard */
-
 .orderlist-table {
     margin-top: 40px;
 }
@@ -70,9 +65,7 @@ h1 {
     width: 25%;
 }
 
-
 /* Order Details */
-
 .order-header-text {
     padding-bottom: 10px;
     padding-top: 10px;
@@ -95,7 +88,6 @@ h1 {
     background: transparent;
     color: #A7001E !important;
     font-weight: 600;
-
 }
 
 .orderReturn-btn:hover {
@@ -150,4 +142,53 @@ h1 {
 
 #account-number {
     display: none;
+}
+
+.header-section-right {
+}
+
+.header-section-left {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.header-section-left h1 {
+    font-size: 48px;
+    padding-bottom: 35px;
+}
+
+.header-section-subtext {
+    padding-bottom: 35px;
+}
+
+.header-section-left button {
+    display: inline-block !important;
+    height: 50px;
+    align-content: 50px;
+}
+
+.header-section-left .contact-btn {
+    width: 144px;
+    background: #A7001E;
+    border: 2px solid #A7001E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+}
+
+.header-section-left .track-btn {
+    width: 202px;
+    border: 2px solid #A7001E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    color: #A7001E;
+}
+
+.header-right-img {
+    background-image: url("../images/undraw_connected_world_wuay.svg");
+    background-size: 100% 100%;
+    height: 450px;
 }
