@@ -1,0 +1,153 @@
+/* General */
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-link-right {
+    margin-right: 0px;
+}
+
+.view-updates-btn {
+    margin-top: 40px;
+}
+
+.tracking-jumbotron p,
+label,
+h1 {
+    margin-bottom: 0px;
+}
+
+.tracking-jumbotron p {
+    margin-top: 20px;
+}
+
+.table p {
+    margin-top: 0px;
+}
+
+
+/* Index */
+
+.tracking-number-input {
+    margin-top: 20px;
+}
+
+.tracking-jumbotron .form-group {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+
+/* Order Dashboard */
+
+.orderlist-table {
+    margin-top: 40px;
+}
+
+.orderlist-table a {
+    color: #A7001E;
+}
+
+.orderlist-table th {
+    color: #615757;
+}
+
+.orderNumber-column {
+    width: 25%;
+}
+
+.description-column {
+    width: auto;
+}
+
+.status-column {
+    width: 25%;
+}
+
+
+/* Order Details */
+
+.order-header-text {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.order-header-section-right {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.orderReturn-btn {
+    width: 160px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: top;
+    border: 1.5px solid #A7001E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: transparent;
+    color: #A7001E !important;
+    font-weight: 600;
+
+}
+
+.orderReturn-btn:hover {
+    cursor: pointer;
+    background: #A7001E;
+    color: white !important;
+    border: 1.5px solid #A7001E;
+}
+
+.summary-table {
+    margin-top: 30px;
+}
+
+.summary-table th {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #615757;
+    background-color: #F7F7F7;
+    border: none !important;
+    font-family: Muli;
+}
+
+.summary-table td {
+    font-size: 1.25rem;
+    background-color: #F7F7F7;
+    border: none !important;
+    font-family: Muli;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.card-title {
+    font-weight: normal;
+}
+
+.card-title .fa-exclamation-triangle,
+.fa-info-circle {
+    margin-right: 10px;
+    color: #4D4343;
+}
+
+.card-text {
+    margin-left: 40px;
+    color: #615757;
+}
+
+.update-card {
+    margin-top: 20px;
+}
+
+#account-number {
+    display: none;
+}
