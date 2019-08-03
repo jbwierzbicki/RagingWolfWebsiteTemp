@@ -167,6 +167,8 @@ h1 {
     display: inline-block !important;
     height: 50px;
     align-content: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .header-section-left .contact-btn {
@@ -176,6 +178,7 @@ h1 {
     box-sizing: border-box;
     border-radius: 5px;
     color: white;
+    margin-right: 10px;
 }
 
 .header-section-left .track-btn {
@@ -191,4 +194,14 @@ h1 {
     background-image: url("../images/undraw_connected_world_wuay.svg");
     background-size: 100% 100%;
     height: 450px;
+}
+
+.contact-btn h5 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.track-btn h5 {
+    margin-top: auto;
+    margin-bottom: auto;
 }
