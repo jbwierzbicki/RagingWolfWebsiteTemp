@@ -1,3 +1,16 @@
+@media (max-width: 576px) { 
+    .header-content {
+        display: inline !important;
+    }
+    .header-tile {
+        display: none !important;
+    }
+}
+
+@media (min-width: 577px) { 
+
+}
+
 /* General */
 body {
     padding-top: 20px;
@@ -12,177 +25,36 @@ body {
     margin-right: 0px;
 }
 
-.view-updates-btn {
-    margin-top: 40px;
-}
 
-.tracking-jumbotron p,
-label,
-h1 {
-    margin-bottom: 0px;
-}
 
-.tracking-jumbotron p {
-    margin-top: 20px;
-}
-
-.table p {
-    margin-top: 0px;
-}
-
-/* Index */
-.tracking-number-input {
-    margin-top: 20px;
-}
-
-.tracking-jumbotron .form-group {
-    margin-top: 40px;
-    margin-bottom: 0px;
-}
-
-/* Order Dashboard */
-.orderlist-table {
-    margin-top: 40px;
-}
-
-.orderlist-table a {
-    color: #A7001E;
-}
-
-.orderlist-table th {
-    color: #615757;
-}
-
-.orderNumber-column {
-    width: 25%;
-}
-
-.description-column {
-    width: auto;
-}
-
-.status-column {
-    width: 25%;
-}
-
-/* Order Details */
-.order-header-text {
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.order-header-section-right {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.orderReturn-btn {
-    width: 160px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    vertical-align: top;
-    border: 1.5px solid #A7001E;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background: transparent;
-    color: #A7001E !important;
-    font-weight: 600;
-}
-
-.orderReturn-btn:hover {
-    cursor: pointer;
-    background: #A7001E;
-    color: white !important;
-    border: 1.5px solid #A7001E;
-}
-
-.summary-table {
-    margin-top: 30px;
-}
-
-.summary-table th {
-    font-weight: normal;
-    font-size: 1rem;
-    color: #615757;
-    background-color: #F7F7F7;
-    border: none !important;
-    font-family: Muli;
-}
-
-.summary-table td {
-    font-size: 1.25rem;
-    background-color: #F7F7F7;
-    border: none !important;
-    font-family: Muli;
-}
-
-.card {
-    margin-top: 40px;
-}
-
-.card-title {
-    font-weight: normal;
-}
-
-.card-title .fa-exclamation-triangle,
-.fa-info-circle {
-    margin-right: 10px;
-    color: #4D4343;
-}
-
-.card-text {
-    margin-left: 40px;
-    color: #615757;
-}
-
-.update-card {
-    margin-top: 20px;
-}
-
-#account-number {
-    display: none;
-}
-
-.header-section-right {
-}
+.header-section-right {}
 
 .header-section-left {
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-}
-
-.header-section-left h1 {
-    font-size: 48px;
-    padding-bottom: 35px;
-}
-
-.header-section-subtext {
-    padding-bottom: 35px;
+    margin-top: 75px;
 }
 
 .header-section-left button {
     display: inline-block !important;
-    height: 50px;
-    align-content: 50px;
+    height: 46px;
+    align-content: 46px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .header-section-left .contact-btn {
-    width: 144px;
     background: #A7001E;
     border: 2px solid #A7001E;
     box-sizing: border-box;
     border-radius: 5px;
     color: white;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .header-section-left .track-btn {
-    width: 202px;
     border: 2px solid #A7001E;
     box-sizing: border-box;
     border-radius: 5px;
@@ -191,17 +63,36 @@ h1 {
 }
 
 .header-right-img {
-    background-image: url("../images/undraw_connected_world_wuay.svg");
-    background-size: 100% 100%;
-    height: 450px;
+
 }
 
-.contact-btn h5 {
+.contact-btn h6 {
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.track-btn h5 {
+.track-btn h6 {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.header-tile {
+
+}
+
+.header-content {
+    display: none;
+}
+
+.header-content h1, h5{
+    padding-bottom: 15px;
+}
+
+.header-tile svg {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.clickable-contact-btn {
+    cursor: pointer;
 }
