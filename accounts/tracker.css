@@ -34,7 +34,7 @@ body {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    margin-top: 75px;
+    margin-top: 50px;
     z-index: 3;
 }
 
@@ -108,8 +108,8 @@ body {
     width: 145%;
     margin-left: 50%;
     transform: translateX(-50%);
-    
 }
+
 
 .header-row {
     overflow: hidden;
