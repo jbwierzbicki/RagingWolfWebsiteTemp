@@ -113,4 +113,5 @@ body {
 
 .header-row {
     overflow: hidden;
+    background: linear-gradient(#f8fafc 87%, #ffffff 13%);
 }
