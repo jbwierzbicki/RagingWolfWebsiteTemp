@@ -35,6 +35,7 @@ body {
     align-content: center;
     flex-direction: column;
     margin-top: 75px;
+    z-index: 3;
 }
 
 .header-section-left button {
@@ -95,4 +96,21 @@ body {
 
 .clickable-contact-btn {
     cursor: pointer;
+}
+
+.header-section-right {
+    max-width: 50%;
+    z-index: 1;
+}
+
+.slideshow {
+    display:block;
+    width: 145%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.header-row {
+    overflow: hidden;
 }
