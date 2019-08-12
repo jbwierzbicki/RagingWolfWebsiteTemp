@@ -8,7 +8,15 @@
     }
 }
 
-@media (min-width: 577px) {
+@media (min-width: 577px) {}
+
+
+@media (max-width: 992px) { 
+    #expedited-ground:first-child:before {
+        width: 6.9em !important;
+        height: 6.9em !important;
+    }
+
 }
 
 /* General */
@@ -21,12 +29,15 @@ body {
     margin-bottom: 20px;
 }
 
+.nav-link {
+    font-size: 16px;
+}
+
 .nav-link-right {
     margin-right: 0px;
 }
 
-.header-section-right {
-}
+.header-section-right {}
 
 .header-section-left {
     display: flex;
@@ -62,8 +73,7 @@ body {
     color: #A7001E;
 }
 
-.header-right-img {
-}
+.header-right-img {}
 
 .contact-btn h6 {
     margin-top: auto;
@@ -118,4 +128,31 @@ h5 {
 
 .contact-link:hover {
     opacity: .5;
+}
+
+#expedited-ground:first-child:before {
+    position: absolute;
+    left: .8%;
+    top: 0em;
+    width: 8em;
+    height: 8em;
+    content: '';
+    background-image: url("http://pinegrow.com/placeholders/img10.jpg");
+    z-index: 2;
+    background-size: cover;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card-body {
+    width: 75%;
+    margin-left: 25%;
+}
+
+.services-row .col-md-6 .card {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 50px 5px 5px 5px;
+    width: 100%;
 }
