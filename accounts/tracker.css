@@ -12,7 +12,7 @@
 
 
 @media (max-width: 992px) { 
-    #expedited-ground:first-child:before {
+    #expedited-ground:before ,  #trucking:before{
         width: 6.9em !important;
         height: 6.9em !important;
     }
@@ -30,7 +30,7 @@ body {
 }
 
 .nav-link {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .nav-link-right {
@@ -86,7 +86,7 @@ body {
 }
 
 .header-tile {
-    min-height: 384px;
+
 }
 
 .header-content {
@@ -101,6 +101,8 @@ h5 {
 .header-tile svg {
     width: 100% !important;
     height: auto !important;
+    min-height: 384px !important;
+
 }
 
 .clickable-contact-btn {
@@ -123,16 +125,15 @@ h5 {
 
 .header-row {
     overflow: hidden;
-    background: linear-gradient(#f8fafc 87%, #ffffff 13%);
 }
 
 .contact-link:hover {
     opacity: .5;
 }
 
-#expedited-ground:first-child:before {
+#expedited-ground:before {
     position: absolute;
-    left: .8%;
+    left: 0;
     top: 0em;
     width: 8em;
     height: 8em;
@@ -144,15 +145,43 @@ h5 {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+    margin-left: -5%;
+}
+#trucking:before {
+    position: absolute;
+    left: 0;
+    top: 0em;
+    width: 8em;
+    height: 8em;
+    content: '';
+    background-image: url("http://pinegrow.com/placeholders/img10.jpg");
+    z-index: 2;
+    background-size: cover;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: -5%;
 }
 
 .card-body {
-    width: 75%;
-    margin-left: 25%;
+    width: 70%;
+    margin-left: 30%;
 }
 
 .services-row .col-md-6 .card {
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
     border-radius: 50px 5px 5px 5px;
-    width: 100%;
+    width: 95%;
+}
+
+.card-title {
+    font-family: Lustria;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: normal;
 }
