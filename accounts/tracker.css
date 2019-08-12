@@ -12,7 +12,7 @@
 
 
 @media (max-width: 992px) { 
-    #expedited-ground:before ,  #trucking:before{
+    #expedited-ground:before,  #trucking:before, #domestic-air-freight:before, #customized-services:before{
         width: 6.9em !important;
         height: 6.9em !important;
     }
@@ -150,6 +150,38 @@ h5 {
     margin-left: -5%;
 }
 #trucking:before {
+    position: absolute;
+    left: 0;
+    top: 0em;
+    width: 8em;
+    height: 8em;
+    content: '';
+    background-image: url("http://pinegrow.com/placeholders/img10.jpg");
+    z-index: 2;
+    background-size: cover;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: -5%;
+}
+#domestic-air-freight:before {
+    position: absolute;
+    left: 0;
+    top: 0em;
+    width: 8em;
+    height: 8em;
+    content: '';
+    background-image: url("http://pinegrow.com/placeholders/img10.jpg");
+    z-index: 2;
+    background-size: cover;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: -5%;
+}
+#customized-services:before {
     position: absolute;
     left: 0;
     top: 0em;
