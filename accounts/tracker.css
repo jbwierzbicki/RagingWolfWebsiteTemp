@@ -16,6 +16,9 @@
         width: 6.9em !important;
         height: 6.9em !important;
     }
+    .header-tile {
+        width: 130% !important;
+    }
 
 }
 
@@ -99,9 +102,8 @@ h5 {
 }
 
 .header-tile svg {
-    width: 100% !important;
-    height: auto !important;
-    min-height: 384px !important;
+    width: 100% ;
+    height: auto ;
 
 }
 
