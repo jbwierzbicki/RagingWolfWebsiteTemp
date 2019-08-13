@@ -11,15 +11,31 @@
 @media (min-width: 577px) {}
 
 /* Medium devices (tablets, 768px and up) -- Switches over to one column */
-@media (min-width: 768px) { 
-    
+@media (max-width: 768px) {
+    .benefits-map {
+        width: 50%;
+        background-size: contain !important;
+        min-height: 275px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .benefits-row .col-md-5,
+    .col-md-7 {
+        height: auto !important;
+    }
 }
 
-@media (max-width: 992px) { 
-    #expedited-ground:before,  #trucking:before, #domestic-air-freight:before, #customized-services:before{
+@media (max-width: 992px) {
+
+    #expedited-ground:before,
+    #trucking:before,
+    #domestic-air-freight:before,
+    #customized-services:before {
         width: 6.9em !important;
         height: 6.9em !important;
     }
+
     .header-tile {
         width: 130% !important;
     }
@@ -34,14 +50,35 @@ body {
 
 .navbar {
     margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .nav-link {
     font-size: 17px;
+    margin-right: 25px;
 }
 
 .nav-link-right {
     margin-right: 0px;
+}
+
+.call-us {
+    width: inherit;
+}
+
+.nav-item-right::after {
+    position: absolute;
+    right: 31px;
+    top: 5.5em;
+    content: '855-WOLF-PAK (965-3725)';
+    z-index: 2;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #A7001E;
+
 }
 
 .header-section-right {}
@@ -82,19 +119,20 @@ body {
 
 .header-right-img {}
 
-.contact-btn h6 {
+.contact-btn h5 {
     margin-top: auto;
     margin-bottom: auto;
+    padding-bottom: 0px;
 }
 
-.track-btn h6 {
+.track-btn h5 {
     margin-top: auto;
     margin-bottom: auto;
-}
-
-.header-tile {
+    padding-bottom: 0px;
 
 }
+
+.header-tile {}
 
 .header-content {
     display: none;
@@ -106,8 +144,8 @@ h5 {
 }
 
 .header-tile svg {
-    width: 100% ;
-    height: auto ;
+    width: 100%;
+    height: auto;
 
 }
 
@@ -155,6 +193,7 @@ h5 {
     border-radius: 50%;
     margin-left: -5%;
 }
+
 #trucking:before {
     position: absolute;
     left: 0;
@@ -172,6 +211,7 @@ h5 {
     border-radius: 50%;
     margin-left: -5%;
 }
+
 #domestic-air-freight:before {
     position: absolute;
     left: 0;
@@ -179,8 +219,10 @@ h5 {
     width: 8em;
     height: 8em;
     content: '';
-    background-image: url("http://pinegrow.com/placeholders/img10.jpg");
+    background-image: url("../images/service icons/image 3.png");
     z-index: 2;
+    background-size: 115% !important;
+    background-position: center center !important;
     background-size: cover;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
     -moz-border-radius: 50%;
@@ -188,6 +230,7 @@ h5 {
     border-radius: 50%;
     margin-left: -5%;
 }
+
 #customized-services:before {
     position: absolute;
     left: 0;
@@ -195,8 +238,10 @@ h5 {
     width: 8em;
     height: 8em;
     content: '';
-    background-image: url("http://pinegrow.com/placeholders/img10.jpg");
+    background-image: url("../images/service icons/image 2.1.png");
     z-index: 2;
+    background-size: 115% !important;
+    background-position: center center !important;
     background-size: cover;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
     -moz-border-radius: 50%;
@@ -235,4 +280,38 @@ h4 {
 .explore-text {
     margin-top: 75px;
     margin-bottom: 100px;
+}
+
+.benefits-row {}
+
+.benefits-row .col-md-5,
+.col-md-7 {
+    height: 400px;
+    vertical-align: middle;
+}
+
+.benefits-row .col-md-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.benefits-row .col-md-7 ul li {
+    padding-bottom: 15px;
+}
+
+.benefits-row .col-md-7 ul {
+    margin-bottom: 0px;
+}
+
+.benefits-header {
+    margin-bottom: 25px;
+}
+
+.benefits-map {
+    background: url("../images/benefits-map.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
 }
