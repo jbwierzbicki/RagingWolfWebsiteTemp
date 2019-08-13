@@ -61,6 +61,7 @@ body {
 
 .nav-link-right {
     margin-right: 0px;
+    padding-right: 0px !important;
 }
 
 .call-us {
@@ -69,7 +70,7 @@ body {
 
 .nav-item-right::after {
     position: absolute;
-    right: 31px;
+    right: 15px;
     top: 5.5em;
     content: '855-WOLF-PAK (965-3725)';
     z-index: 2;
