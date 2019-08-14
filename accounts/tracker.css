@@ -43,15 +43,28 @@
 }
 
 /* General */
-body {
+.body-container {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+body {
+
+}
+
+.services-row .col-md-6 {
+    padding-left: 1.46%;
+    padding-right: 1.46%;
+}
+
+.services-row .col-md-6 .card {
+
+}
+
 .navbar {
     margin-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 2.917%;
+    padding-right: 2.917%;
 }
 
 .nav-link {
@@ -70,7 +83,7 @@ body {
 
 .nav-item-right::after {
     position: absolute;
-    right: 15px;
+    right: 3.967%;
     top: 5.5em;
     content: '855-WOLF-PAK (965-3725)';
     z-index: 2;
@@ -161,7 +174,7 @@ h5 {
 
 .slideshow {
     display: block;
-    width: 145%;
+    width: 140%;
     max-height: 385px;
     overflow-y: hidden;
     margin-left: 50%;
@@ -170,6 +183,8 @@ h5 {
 
 .header-row {
     overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .contact-link:hover {
@@ -257,7 +272,11 @@ h5 {
 }
 
 .services-row {
-   
+    background: #F6F6F6;
+   padding-left: 7.083%;
+   padding-right: 7.083%;
+   padding-bottom: 50px;
+   margin-bottom: 50px;
 }
 
 .services-row .col-md-6 .card {
@@ -284,10 +303,17 @@ h4 {
 
 .explore-text {
     margin-top: 75px;
-    margin-bottom: 100px;
 }
 
-.benefits-row {}
+.explore-text h4 {
+    margin-bottom: 75px;
+}
+
+.benefits-row {
+    padding-left: 7.11%;
+    padding-right: 7.11%;
+    margin-bottom: 75px;
+}
 
 .benefits-row .col-md-5,
 .col-md-7 {
@@ -320,3 +346,16 @@ h4 {
     background-position: center center;
     content: "";
 }
+
+.card-text {
+    line-height: 216.15%;
+}
+
+.staples-row {
+    padding-left: 7.11%;
+    padding-right: 7.11%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background: #F6F6F6;    
+}
+
