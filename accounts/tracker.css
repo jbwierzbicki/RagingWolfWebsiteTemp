@@ -48,18 +48,14 @@
     padding-bottom: 20px;
 }
 
-body {
-
-}
+body {}
 
 .services-row .col-md-6 {
     padding-left: 1.46%;
     padding-right: 1.46%;
 }
 
-.services-row .col-md-6 .card {
-
-}
+.services-row .col-md-6 .card {}
 
 .navbar {
     margin-bottom: 20px;
@@ -173,12 +169,14 @@ h5 {
 }
 
 .slideshow {
-    display: block;
-    width: 140%;
+    display: relative;
+    vertical-align: middle;
     max-height: 385px;
     overflow-y: hidden;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin-left: -125px;
+    position: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 .header-row {
@@ -273,10 +271,10 @@ h5 {
 
 .services-row {
     background: #F6F6F6;
-   padding-left: 7.083%;
-   padding-right: 7.083%;
-   padding-bottom: 50px;
-   margin-bottom: 50px;
+    padding-left: 7.083%;
+    padding-right: 7.083%;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .services-row .col-md-6 .card {
@@ -356,6 +354,5 @@ h4 {
     padding-right: 7.11%;
     padding-top: 75px;
     padding-bottom: 75px;
-    background: #F6F6F6;    
+    background: #F6F6F6;
 }
-
