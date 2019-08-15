@@ -39,9 +39,7 @@
 }
 
 /* General */
-html {
-
-}
+html {}
 
 .body-container {
     padding-top: 20px;
@@ -50,9 +48,7 @@ html {
 
 }
 
-body {
-
-}
+body {}
 
 .services-row .col-lg-6 {
     padding-left: 1.46%;
@@ -62,9 +58,9 @@ body {
 .services-row .col-lg-6 .card {}
 
 .navbar {
-    margin-bottom: 20px;
     padding-left: 2.917%;
     padding-right: 2.917%;
+    margin-bottom: 5px;
 }
 
 .nav-link {
@@ -81,18 +77,20 @@ body {
     width: inherit;
 }
 
-.nav-item-right::after {
-    position: absolute;
-    right: 3.967%;
-    top: 5.5em;
-    content: '855-WOLF-PAK (965-3725)';
-    z-index: 2;
-    font-family: Muli;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    color: #A7001E;
+.call-us-row {
+    background: #A7001E;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    z-index: 10;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
 
+.call-us-row .col-lg-12 p {
+    margin: auto;
 }
 
 .header-section-right {}
@@ -149,7 +147,7 @@ body {
 .header-card::before {
     position: absolute;
     left: 1em;
-    top: 2em;
+    top: -1.5em;
     content: '';
     z-index: -1;
     width: 200px;
@@ -163,7 +161,7 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
-    margin-top: 80px;
+    margin-top: 25px;
     margin-bottom: 20px;
     margin-left: 8.33%;
     max-width: 500px;
@@ -200,13 +198,11 @@ h5 {
 .slideshow {
     display: relative;
     vertical-align: middle;
-    max-height: 385px;
+    max-height: 400px;
     overflow-y: hidden;
     margin-left: -26.416%;
     position: center;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
     margin-top: 15px;
-    
 }
 
 .header-row {
@@ -301,6 +297,7 @@ h5 {
 
 .services-row {
     background: #F6F6F6;
+    box-shadow: 0 0 8px 8px #F6F6F6;
     padding-left: 7.083%;
     padding-right: 7.083%;
     padding-bottom: 50px;
